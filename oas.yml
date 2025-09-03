@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  title: STD24059
+  description: This is a specification of STD24059
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000
+paths:
+  /ping:
+    get:
+      responses:
+        200:
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: pong
+  /cars:
+    post:
+      responses:
+        201:
+          description: cars added
+          content:
+   :
+
+
+
